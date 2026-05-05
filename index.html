@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Muhammed Nabeel Abdurrauf is a robotics, control systems, and data infrastructure researcher focused on intelligent autonomous systems."
+    >
+    <title>Muhammed Nabeel Abdurrauf | Robotics, Control & Intelligent Systems</title>
+    <script>
+      try {
+        var theme = localStorage.getItem("portfolio-theme");
+        if (theme === "dark" || theme === "light") {
+          document.documentElement.setAttribute("data-theme", theme);
+        }
+      } catch (error) {}
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Muhammed Nabeel Abdurrauf home">MNA</a>
+      <div class="header-actions">
+        <nav aria-label="Primary navigation">
+          <a href="#research">Research</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+          <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+          <span class="theme-toggle-text">Dark</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Robotics, control systems, and intelligent infrastructure</p>
+          <h1>Muhammed Nabeel Abdurrauf</h1>
+          <p class="hero-title">
+            Systems and Control Engineering MSc researcher at KFUPM, working across
+            geometric control, multi-agent aerial robotics, and production-grade data systems.
+          </p>
+          <p class="hero-statement">
+            I design intelligent autonomous systems that connect control theory, robotics,
+            machine learning, and production-grade data infrastructure.
+          </p>
+          <div class="hero-actions" aria-label="Profile actions">
+            <a class="button primary" href="#projects">View research</a>
+            <a class="button secondary" href="mailto:muhabeel1000@gmail.com">Email me</a>
+          </div>
+        </div>
+        <figure class="profile-panel">
+          <img src="assets/profile.jpeg" alt="Portrait of Muhammed Nabeel Abdurrauf">
+          <figcaption>
+            <span>Research focus</span>
+            Energy-aware autonomy, safe interaction, and data-driven robotic systems.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section stats-band" aria-label="Academic and technical highlights">
+        <div>
+          <strong>3.97/4</strong>
+          <span>KFUPM MSc CGPA</span>
+        </div>
+        <div>
+          <strong>4.92/5</strong>
+          <span>B.Eng. Electrical & Electronics Engineering</span>
+        </div>
+        <div>
+          <strong>ROS 2 + PX4</strong>
+          <span>Simulation, integration, and autonomous control</span>
+        </div>
+        <div>
+          <strong>5 papers</strong>
+          <span>Conference, journal, and submitted control systems research</span>
+        </div>
+      </section>
+
+      <section class="section split" id="research">
+        <div>
+          <p class="eyebrow">Research identity</p>
+          <h2>Safe autonomous systems, from mathematical structure to hardware behavior.</h2>
+        </div>
+        <div class="rich-text">
+          <p>
+            My academic work sits at the intersection of nonlinear control theory,
+            robotics, and safety-aware autonomy. I am especially interested in
+            how geometric modeling, port-Hamiltonian systems, passivity, and energy-aware
+            impedance control can make collaborative robots safer and more capable.
+          </p>
+          <p>
+            My current direction centers on modular multi-manual aerial manipulation,
+            multi-agent coordination, and the translation of rigorous control ideas into
+            simulation and experimental robotic systems.
+          </p>
+        </div>
+      </section>
+
+      <section class="section focus-grid" aria-label="Research focus areas">
+        <article class="focus-card">
+          <span class="card-index">01</span>
+          <h3>Geometric & Energy-Based Control</h3>
+          <p>
+            Modeling robotic systems on SE(3), with attention to physical consistency,
+            passivity, and stability-preserving interaction.
+          </p>
+        </article>
+        <article class="focus-card">
+          <span class="card-index">02</span>
+          <h3>Multi-Agent Aerial Manipulation</h3>
+          <p>
+            Coordinating aerial and ground robots for cooperative manipulation, logistics,
+            and shared payload transport.
+          </p>
+        </article>
+        <article class="focus-card">
+          <span class="card-index">03</span>
+          <h3>Safe Autonomy & Teaching Support</h3>
+          <p>
+            Building safety-aware control intuition while supporting undergraduate students
+            with reinforcement learning and robotics coursework.
+          </p>
+        </article>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Featured work</p>
+          <h2>Research and engineering projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image image-frame">
+              <img
+                src="assets/thesis-image.png"
+                alt="Diagram of the flying end-effector paradigm, modular multi-manual control, energy-aware control, and port-Hamiltonian framework."
+              >
+            </div>
+            <div class="project-body">
+              <p class="project-type">Master's thesis in progress</p>
+              <h3>Energy-Aware Impedance Control for Modular Multi-Manual Aerial Manipulation</h3>
+              <p>
+                Developing energy tank and passivity-based control strategies for cooperative
+                aerial systems manipulating shared objects under uncertain interaction.
+              </p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image image-frame">
+              <img
+                src="https://docs.ros.org/en/humble/_images/gazebo_diff_drive.png"
+                alt="Gazebo simulation screenshot from the ROS 2 documentation."
+              >
+              <p class="image-credit">
+                Illustrative image from the ROS 2 documentation; not original work by Muhammed Nabeel Abdurrauf.
+              </p>
+            </div>
+            <div class="project-body">
+              <p class="project-type">Robotics stack</p>
+              <h3>ROS 2, PX4, and Gazebo Integration for Autonomous Robots</h3>
+              <p>
+                Simulation and control packages for aerial-ground robotic systems, including
+                SITL testing, coordinate-frame reasoning, and hardware validation workflows.
+              </p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image image-frame">
+              <img
+                src="assets/stability-anchored-image.png"
+                alt="Stability-anchored AUV control optimization workflow diagram."
+              >
+            </div>
+            <div class="project-body">
+              <p class="project-type">Control optimization</p>
+              <h3>Stability-Constrained Optimization for Autonomous Underwater Systems</h3>
+              <p>
+                Uses metaheuristic optimization, control performance analysis, and robust
+                evaluation scenarios for depth and heave-controller design.
+              </p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image image-frame">
+              <img
+                src="https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_Pipeline_on_Google_CLoud.max-1500x1500.png"
+                alt="Data analytics pipeline architecture diagram on Google Cloud."
+              >
+              <p class="image-credit">
+                Illustrative image from Google Cloud Blog; not original work by Muhammed Nabeel Abdurrauf.
+              </p>
+            </div>
+            <div class="project-body">
+              <p class="project-type">Data systems</p>
+              <h3>Cloud-Native Analytics and ML Pipelines</h3>
+              <p>
+                Designs ETL/ELT workflows, data models, and deployment pipelines with AWS,
+                Azure, Airbyte, Kafka, dbt, Docker, and analytical warehouses.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div>
+          <p class="eyebrow">Academic profile</p>
+          <h2>Education, teaching, and research community work.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>2024 - Present</span>
+            <h3>King Fahd University of Petroleum & Minerals</h3>
+            <p>MSc, Systems and Control Engineering. Research/Teaching Assistant and ARM4L research assistant.</p>
+          </article>
+          <article>
+            <span>2019 - 2023</span>
+            <h3>Nile University of Nigeria</h3>
+            <p>B.Eng., Electrical and Electronics Engineering. Graduated with 4.92/5 CGPA.</p>
+          </article>
+          <article>
+            <span>Leadership</span>
+            <h3>Graduate and professional service</h3>
+            <p>
+              Pioneer General Secretary, CIE Graduate Student Club at KFUPM; former
+              pioneer president of NIEEES and program organiser for IEEE events.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section publications">
+        <div class="section-heading">
+          <p class="eyebrow">Publications & papers</p>
+          <h2>Selected research outputs</h2>
+        </div>
+        <div class="publication-list">
+          <article>
+            <div>
+              <h3>Stability-Constrained Optimization of AUV Depth Controllers Using Cascaded Architectures and the Mountain Gazelle Optimizer</h3>
+              <p>Alexandria Engineering Journal; accepted and publication forthcoming. Authors: Muhammed Abdurrauf, Mubarak Badamasi Aremu, Shajjad Dewan, and Nezar M. Alyazidi.</p>
+            </div>
+            <span>Accepted</span>
+          </article>
+          <article>
+            <div>
+              <h3>Optimized LQR-Based Depth-Pitch Control of an Autonomous Underwater Vehicle</h3>
+              <p>SSD Conference; presented and publication forthcoming. Authors: Ibrahim D. Ibrahim, Mubarak Aremu Badamasi, Muhammed N. Abdurrauf, Nezar M. Alyazidi, and Abdul-wahid A. Saif.</p>
+            </div>
+            <span>Presented</span>
+          </article>
+          <article>
+            <div>
+              <h3>Weighted Multiobjective Metaheuristic Optimization of PID-SMC for a 2-DOF Manipulator Under Torque Disturbances: MGO vs AHA</h3>
+              <p>SSD Conference; presented and publication forthcoming. Authors: Shajjad Dewan, Muhammed N. Abdurrauf, and Nezar M. Alyazidi.</p>
+            </div>
+            <span>Presented</span>
+          </article>
+          <article>
+            <div>
+              <h3>Disturbance-Robustness Analysis of Geometric Impedance Control on SE(3)</h3>
+              <p>Asian Control Conference submission. Authors: Muhammed N. Abdurrauf, Shajjad Dewan, Ramy Rashad, and Muhammad Emzir.</p>
+            </div>
+            <span>In review</span>
+          </article>
+          <article>
+            <div>
+              <h3>Comparative Study of Optimized Geometric Impedance and PD Control on SE(3) for a Fully Actuated Space Vehicle</h3>
+              <p>Asian Control Conference submission. Authors: Shajjad Dewan, Muhammed N. Abdurrauf, Ramy Rashad, and Muhammad Emzir.</p>
+            </div>
+            <span>In review</span>
+          </article>
+          <article>
+            <div>
+              <h3>Energy-Aware Impedance Control for Modular Multi-Manual Aerial Manipulation</h3>
+              <p>Master's thesis in progress at KFUPM, focused on passivity, energy tanks, and safe cooperative aerial manipulation.</p>
+            </div>
+            <span>Thesis</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="experience">
+        <div>
+          <p class="eyebrow">Engineering profile</p>
+          <h2>Research-to-production experience across robots, data, and cloud systems.</h2>
+        </div>
+        <div class="experience-list">
+          <article>
+            <h3>ARM4L, IRC-SML, KFUPM</h3>
+            <p>Research Assistant | Aerial manipulators, ROS 2, PX4, Gazebo, geometric control, lab validation.</p>
+          </article>
+          <article>
+            <h3>Foodcourt</h3>
+            <p>Data & Analytics Engineer | ETL/ELT, data warehousing, ML pipelines, AWS/Azure, Redshift, Airbyte, Kafka.</p>
+          </article>
+          <article>
+            <h3>Chithub</h3>
+            <p>Python Developer | FastAPI, OAuth2, Docker, SQL Server, MongoDB, backend and automation workflows.</p>
+          </article>
+          <article>
+            <h3>Nile University of Nigeria</h3>
+            <p>Graduate Research and Teaching Assistant | Tutorials, lab support, mentoring, Python and MATLAB research support.</p>
+          </article>
+          <article>
+            <h3>NIGCOMSAT</h3>
+            <p>Technical Assistant | Hardware systems, server maintenance, troubleshooting, and operational support.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section">
+        <div class="section-heading">
+          <p class="eyebrow">Technical toolkit</p>
+          <h2>Skills grouped by research and implementation surface</h2>
+        </div>
+        <div class="skills-grid">
+          <article>
+            <h3>Research & Control</h3>
+            <p>Geometric control, port-Hamiltonian systems, passivity, impedance control, Lyapunov stability, metaheuristic optimization.</p>
+          </article>
+          <article>
+            <h3>Robotics & Simulation</h3>
+            <p>ROS 2, PX4 Autopilot, Gazebo, PyBullet, MATLAB, Simulink, Simscape, QGroundControl, RViz.</p>
+          </article>
+          <article>
+            <h3>Data, ML & APIs</h3>
+            <p>Python, SQL, FastAPI, scikit-learn, TensorFlow, MLflow, feature engineering, semantic segmentation, REST APIs.</p>
+          </article>
+          <article>
+            <h3>Cloud & DataOps</h3>
+            <p>AWS, Azure, GCP, Docker, GitHub Actions, Airbyte, Kafka, dbt, Airflow, PostgreSQL, Redshift, BigQuery.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Open to research collaborations, PhD opportunities, and intelligent systems work.</h2>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:muhabeel1000@gmail.com">muhabeel1000@gmail.com</a>
+        <a href="https://github.com/muhabeel">GitHub</a>
+        <a href="https://www.linkedin.com/in/muhammed-abdurrauf/">LinkedIn</a>
+      </div>
+    </footer>
+  </body>
+</html>
